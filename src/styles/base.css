@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  height: 100vh;
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  font-family: sans-serif;
+}
+.container {
+  max-width: 1000px;
+  width: 90%;
+  margin: auto;
+}
+.todo-list {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+.todo {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.btns {
+  display: flex;
+}
+.btns input {
+  margin-left: 1rem;
+  width: 3rem;
+}
+.title {
+  text-transform: capitalize;
+}
+.title.done {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
